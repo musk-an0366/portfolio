@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Contact | Muskan Kumari</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+
+<header class="navbar">
+
+    <a href="index.html" class="logo">
+        <span>MK</span>
+        Muskan Kumari
+    </a>
+
+    <nav id="navMenu">
+
+        <a href="index.html">Home</a>
+
+        <a href="bio.html">Bio</a>
+
+        <a href="skills.html">Skills</a>
+
+        <a href="projects.html">Projects</a>
+
+        <a href="education.html">Education</a>
+
+        <a href="contact.html" class="active">
+            Contact
+        </a>
+
+    </nav>
+
+    <button class="menu" onclick="toggleMenu()">☰</button>
+
+</header>
+
+
+
+<main class="page">
+
+    <div class="page-title">
+
+        <p class="eyebrow">
+            05 • GET IN TOUCH
+        </p>
+
+        <h1>
+            Contact Me
+        </h1>
+
+        <p>
+            Interested in internships, projects
+            or collaboration? Let's connect.
+        </p>
+
+    </div>
+
+
+
+    <section class="contact-grid">
+
+
+        <div class="contact-info">
+
+            <h2>
+                Let's Connect
+            </h2>
+
+            <p>
+                You can contact me through email
+                or connect with me on professional
+                platforms.
+            </p>
+
+
+            <a href="mailto:muska0366@gmail.com">
+                ✉ muska0366@gmail.com
+            </a>
+
+
+            <a href="http://www.linkedin.com/in/muskan-kumari-0a723236a"
+               target="_blank">
+
+                ◈ http://www.linkedin.com/in/muskan-kumari-0a723236a
+            </a>
+
+
+            <a href="https://github.com/musk-an0366"
+               target="_blank">
+
+                ◈ https://github.com/musk-an0366
+
+            </a>
+
+        </div>
+
+
+
+        <form class="contact-form"
+              onsubmit="sendMessage(event)">
+
+            <label>
+
+                Name
+
+                <input
+                    type="text"
+                    id="name"
+                    placeholder="Your name"
+                    required
+                >
+
+            </label>
+
+
+            <label>
+
+                Email
+
+                <input
+                    type="email"
+                    id="email"
+                    placeholder="you@example.com"
+                    required
+                >
+
+            </label>
+
+
+            <label>
+
+                Message
+
+                <textarea
+                    id="message"
+                    rows="5"
+                    placeholder="Write your message..."
+                    required>
+                </textarea>
+
+            </label>
+
+
+            <button
+                type="submit"
+                class="btn primary">
+
+                Send Message →
+
+            </button>
+
+
+            <p id="form-message"></p>
+
+        </form>
+
+
+    </section>
+
+</main>
+
+
+
+<footer>
+    © 2026 Muskan Kumari • Personal Portfolio
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
